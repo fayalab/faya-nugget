@@ -18,11 +18,11 @@ int IRRead1,IRRead2,IRRead3,IRRead4,IRRead5;
 void loop()
 {
      digitalWrite(SigPin,HIGH);        //IR發射開啟
-     IRRead5 = analogRead(IRPin5);     /*-----------*/
+     IRRead5 = analogRead(IRPin5);     /*----------*/
      IRRead4 = analogRead(IRPin4);
      IRRead3 = analogRead(IRPin3);     //IR反射讀取
      IRRead2 = analogRead(IRPin2);
-     IRRead1 = analogRead(IRPin1);     /*-----------*/
+     IRRead1 = analogRead(IRPin1);     /*----------*/
      digitalWrite(SigPin,LOW);         //IR發射關閉
      delay(1000);
      
