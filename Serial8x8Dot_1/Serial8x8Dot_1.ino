@@ -2,7 +2,7 @@
 // Faya-Nugget 範例程式 (Serial8x8Dot_1.ino)
 // 單元: 模組介紹 :faya 串列8x8點矩陣模組
 // 網址: https://fayalab.blogspot.com/2017/11/serial8x8dot.html
-// 目標 (1) 串列8x8點矩陣模組上顯示一愛心
+// 目標 (1) 串列8x8點矩陣模組上顯示一愛心.
 
 // 接線: Arduino ==> faya模組
 //           D10 ==> LOAD (8*8矩陣顯示器模組)
