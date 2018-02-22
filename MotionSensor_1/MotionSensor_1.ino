@@ -1,7 +1,7 @@
 // 2018/01/18
 // Faya-Nugget 範例程式 (MotionSensor_1.ino)
 // 單元: 模組介紹-faya人體感應模組
-/////// 網址:
+// 網址:
 // 目標: (1)當感測模組偵測到人體動作變化時
 //       (2)LED變為ON，並停2秒
 //       (3)可支援Serial Plotter輸出,用於觀察感測數值曲線變化(只支援1.6.6以上的IDE)
@@ -31,11 +31,9 @@ void setup() {
 }
 
 void loop() {
-  
   sensor_value=analogRead(PIR_pin); //從A0讀取人體感應模組的感測值
   Serial.println(sensor_value);      //將數值回傳到Serial Monitor (或者Serial Plotter)顯示
   tcb1.update();                    //按照預先設定的時間呼叫 LED_control 副程式
- 
 }
 
 void LED_control()
