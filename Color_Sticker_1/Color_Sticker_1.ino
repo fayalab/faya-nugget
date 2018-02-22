@@ -2,7 +2,7 @@
 // Faya-Nugget 範例程式 (Color_Sticker_1.ino)
 // 單元: 模組介紹:faya串列全彩LED模組
 // 網址: https://fayalab.blogspot.com/2017/09/colorsticker.html
-// 目標: (1) 跑馬燈依序顯示紅橙黃綠青藍靛紫8種顏色
+// 目標: (1) 跑馬燈依序顯示紅橙黃綠青藍靛紫8種顏色.
 
 // 接線: Arduino ==> faya模組
 //            D2 ==> 串列全彩LED_Din
